@@ -1,1 +1,2 @@
-# imc_bmi_calculator_in_csharp
+# IMC/BMI calculator in C#
+First day using C#
