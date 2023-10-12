@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
  // Compiler version 4.0, .NET Framework 4.5
 
 
- namespace Dcode
+ namespace IMC
  {
    public class Program
    {
@@ -19,25 +19,25 @@ using System.Text.RegularExpressions;
 
  // cálculo do IMC
       double imc = (weight / (height * height));
-      Console.WriteLine("Seu IMC é: " + imc);
+      Console.Write("Your BMI is: " + imc + "! You're ");
       
  // informando o estado da pessoa
       if (imc < 16) { 
-         Console.WriteLine("Severe thinness"); 
+         Console.Write("severe thinness"); 
        } else if (imc < 17) { 
-         Console.WriteLine("Moderate thinness"); 
+         Console.Write("moderate thinness"); 
        } else if (imc < 18.5) { 
-         Console.WriteLine("Mild thinness"); 
+         Console.Write("mild thinness"); 
        } else if (imc < 25) { 
-         Console.WriteLine("Normal!!!"); 
+         Console.Write("normal!!!"); 
        } else if (imc < 30) { 
-         Console.WriteLine("Overweight"); 
+         Console.Write("overweight"); 
        } else if (imc < 35) { 
-         Console.WriteLine("Obese class I"); 
+         Console.Write("obese class I"); 
        } else if (imc < 40) { 
-         Console.WriteLine("Obese class II"); 
+         Console.Write("obese class II"); 
        } else if (imc >= 40) { 
-         Console.WriteLine("Obese class III"); 
+         Console.Write("obese class III"); 
       }
      }
    }
